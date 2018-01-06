@@ -70,3 +70,30 @@ body{
     position: absolute;
     bottom: 0px;
 }
+
+// Assignment 4
+
+#loginModal {
+    .modal-header{
+        background: $background-dark;
+        color: floralwhite;
+    }
+    .modal-body {
+        background: $background-pale;
+    }
+    .modal-footer {
+        background: $background-light;
+    }
+}
+#reserveModal {
+    .modal-header {
+        background: $background-dark;
+        color: floralwhite;
+    }
+    .modal-body {
+        background: $background-pale;
+    }
+    .modal-footer {
+        background: $background-pale;
+    }
+}
