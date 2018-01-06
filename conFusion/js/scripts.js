@@ -16,7 +16,7 @@ $(document).ready(function () {
     // Assignmet 4
 
     $("#loginButton").click(function () {
-        $("#loginModal").modal("show");
+        $("#loginModal").modal("toggle");
         $("#cancelLogin").click(function () {
             $("#loginModal").modal("hide");
         })
@@ -25,7 +25,7 @@ $(document).ready(function () {
 
 
     $("#reserveButton").click(function () {
-        $("#reserveModal").modal("show");
+        $("#reserveModal").modal("toggle");
         $("#cancelReserve").click(function () {
             $("#reserveModal").modal("hide");
         });
